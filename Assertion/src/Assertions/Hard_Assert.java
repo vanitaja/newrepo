@@ -37,7 +37,7 @@ public class Hard_Assert
 	  boolean act_flag=driver.findElement(By.xpath("//img[@src='/images/masts/mast_flightfinder.gif']")).isDisplayed();
 	  boolean exp_flag=true;
 	  Assert.assertEquals(act_flag, exp_flag);
-	  System.out.println("flight finder displayed");
+	  System.out.println("flight finder");
 	  System.out.println("successfully");
   }
   
