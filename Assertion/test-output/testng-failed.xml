@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Assertions.Hard_Assert">
+        <methods>
+          <include name="enterApplicationURL"/>
+          <include name="Maximize_Window"/>
+          <include name="LoginWithInValidDetails"/>
+          <include name="getCookie"/>
+          <include name="close"/>
+          <include name="deleteAllCookies"/>
+          <include name="openBrowser"/>
+          <include name="dbConnectionClose"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Assertions.Hard_Assert -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
